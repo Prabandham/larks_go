@@ -1,0 +1,14 @@
+# This is the default route file.
+# All comments are rejected.
+# comments start with a #
+
+
+# Define all application routes below
+# path            method                 interface_method
+
+# Project related routes
+/api/projects                   GET                    ListProjects
+/api/new_project                POST                   CreateProject
+/api/show_project/:id           GET                    ShowProject
+/api/update_project/:id         PUT                    UpdateProject
+/api/delete_project/:id         DELETE                 DeleteProject
