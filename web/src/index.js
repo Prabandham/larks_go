@@ -2,12 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import * as serviceWorker from './serviceWorker';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
-import LandingPageContainer from "./containers/LandingPageContainer";
+import Routes from "./Routes";
 
 ReactDOM.render(
   <React.StrictMode>
-    <LandingPageContainer />
+    <Routes />
   </React.StrictMode>,
   document.getElementById('root')
 );
